@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    background-color: lightblue;
+    width: 100%;
+    height: 80px;
+}
+#header>nav>button{
+    width: 90px;
+    height: 35px;
+    border: none;
+    background: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#header>nav>button:hover{
+    border-bottom: 2px solid black;
+    background-color: grey;
+}
+#header>nav:nth-child(3){
+margin-right: 120px;
+}
+#content{
+    max-width: 750px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+}
