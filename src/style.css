@@ -23,14 +23,58 @@ body{
     border-bottom: 2px solid black;
     background-color: grey;
 }
-#header>nav:nth-child(3){
+#header>nav:nth-child(4){
 margin-right: 120px;
 }
 #content{
-    max-width: 750px;
+    max-width: 1050px;
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     letter-spacing: 0.02em;
     line-height: 1.5em;
 }
+.menu{ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 50px;
+  margin-top: 40px;
+
+
+}
+.menu>div{ 
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    font-size: 15px;
+   letter-spacing: 0.1px;
+}
+.menu>div>ul{
+    list-style-type: none;
+    padding: 0;
+}
+.contact>ul{
+    border: 4px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 650px;
+    height: 600px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.contact>ul>li{
+    list-style-type: none;
+    border: 5px solid lightblue;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+   

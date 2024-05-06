@@ -1,8 +1,9 @@
+
 import "./style.css";
 import home from './home.js';
 import menu from './menu.js';
 import about from './about.js';
-console.log(home);
+import contact from './contact.js'; 
 let content = document.getElementById('content');
 let btn1 = document.getElementById('btn1');
 btn1.addEventListener('click',()=>{
@@ -19,4 +20,11 @@ btn3.addEventListener('click',()=>{
     content.innerHTML='';
     content.appendChild(about);
 });
+let btn4 = document.getElementById('btn4');
+btn4.addEventListener('click',()=>{
+    content.innerHTML='';
+    content.appendChild(contact);
+});
+
+
 
