@@ -5,6 +5,7 @@ import menu from './menu.js';
 import about from './about.js';
 import contact from './contact.js'; 
 let content = document.getElementById('content');
+content.appendChild(home);
 let btn1 = document.getElementById('btn1');
 btn1.addEventListener('click',()=>{
     content.innerHTML='';
