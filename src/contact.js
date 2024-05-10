@@ -17,3 +17,4 @@ Waiter
 totallyRealEmail@notFake.com</li>
 </ul>`;
 export default contact;
+

@@ -51,16 +51,8 @@ margin-right: 120px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2,1fr);
-  gap: 50px;
+  gap: 40px;
   height: 100vh;
-}
-.menu>div{ 
-    border: 3px solid black;
-    border-radius: 5px;
-    padding: 20px;
-    width: 300px;
-    font-size: 15px;
-   letter-spacing: 0.1px;
 }
 .menu>div>ul{
     list-style-type: none;
@@ -144,4 +136,45 @@ body {
     font-weight: bolder;
     font-size: 16px;
     box-shadow: 0px 0px 4px 0px black;
+}
+.tileimg{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tile{
+    width: 19vw;
+    height: 38vh;
+    min-width: 200px;
+    min-height: 300px;
+    border:0px solid transparent;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px black;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-shadow: 1px 1px 2px gray;
+}
+.tilediv{
+    font-size: 0.90rem;
+    margin-top: 15px;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    font-family: "Cormorant", serif;
+    font-weight: bolder;
+}
+.tilediv::before{
+    content: ''; 
+    position: absolute;
+    left: 7px;
+    top: 0px;
+    width: 94%;
+    height: 2px;
+    background-color: hsl(39, 100%, 55%);
+}
+.tilename{
+    width: 18vw;
+}
+.tileprice{
+    width: 3vw;
 }
