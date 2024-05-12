@@ -177,3 +177,35 @@ body {
 .tileprice{
     width: 3vw;
 }
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.aboutdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -10px;
+    position: relative;
+}
+.aboutdiv>p{
+    color: white;
+    text-shadow: 1px 1px 8px gray;
+}
+.aboutdiv>h2{
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+.aboutdiv:nth-child(2)::after,
+.aboutdiv:nth-child(3)::after {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    background-color: hsl(39, 100%, 55%);
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 5px;
+}
