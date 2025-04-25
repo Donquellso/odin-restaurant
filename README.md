@@ -1,1 +1,1 @@
-![DEMO](https://donquellso.github.io/odin-restaurant/)
+[DEMO](https://donquellso.github.io/odin-restaurant/)
